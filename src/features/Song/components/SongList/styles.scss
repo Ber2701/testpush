@@ -1,0 +1,13 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.song-list {
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 0 -20px;
+	& > li {
+		padding: 0 20px;
+	}
+}
