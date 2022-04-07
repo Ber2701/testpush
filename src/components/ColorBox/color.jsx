@@ -7,7 +7,7 @@ function ColorBox(props) {
 		<div>
 			{color}
 			<button onClick={() => setColor("brown")}>change</button>
-			<button onClick={() => setColor("black")}>change to black</button>
+				<button onClick={() => setColor("black")}>change to black</button>
 		</div>
 	);
 }

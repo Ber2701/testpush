@@ -3,6 +3,7 @@ import "./App.css";
 import TodoFeature from "./features";
 import SongFeatures from "./features/Song/components";
 import ColorBox from "./components/ColorBox/color";
+import Counter from "./components/counter";
 
 function App() {
 	const name = "Tuan";
@@ -14,7 +15,7 @@ function App() {
 	const colorList = ["red", "green", "black"];
 	return (
 		<div className="App">
-			<ColorBox />
+			<TodoFeature />
 		</div>
 	);
 }
